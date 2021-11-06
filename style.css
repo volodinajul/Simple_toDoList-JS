@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    margin: 100px;
+    max-width: 750px;
+}
+
+.section {
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px black;
+    border-radius: 3px;
+    box-shadow: 0 0 3px black;
+}
+
+
+/* section_form */
+
+ .section_form {
+    content: "";
+    display: flex;
+    clear: both;
+    padding-top: 120px;
+    padding-left: 50px;
+} 
+
+.form_input {
+    float: left;
+    display: block;
+    width: 500px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 black;
+    color: rgb(187, 187, 187);
+    padding-left: 10px;
+}
+
+.section_button {
+    width: 100px;
+    height: 46px;
+    margin-left: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0 black;
+    background-color: rgb(117, 117, 163);
+    color: white;
+}
+
+.section_button:hover {
+    opacity: .50;
+}
+
+/* section_list */
+
+.value_input {
+    font-style: italic;
+    display: block;
+}
+
+.button_delete {
+    color: white;
+    background-color: rgb(117, 117, 163);
+    border-radius: 3px;
+    width: 80px;
+    height: 38px;
+    margin-right: 0;
+}
+
+.button_delete:hover {
+    opacity: .60;
+}
