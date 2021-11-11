@@ -54,6 +54,13 @@ body {
 
 /* section_list */
 
+/* .section_list {
+    content: "";
+    display: flex;
+    clear: both;
+    padding-left: 50px; 
+} */
+
 .value_input {
     font-style: italic;
     display: block;
@@ -65,7 +72,8 @@ body {
     border-radius: 3px;
     width: 80px;
     height: 38px;
-    margin-right: 0;
+    margin-left: 10px;
+    box-shadow: 0 0 3px 0 black;
 }
 
 .button_delete:hover {

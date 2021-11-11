@@ -27,16 +27,11 @@ button.addEventListener("click", function(e){
 });
 
 input.addEventListener("focus", function(){
-   input.value = "";                       //при наведении убирается пустое значение 
+   input.value = "";                      
 });
 
 input.addEventListener("blur", function(){
 if(input.value === ""){
-   input.value = "Add: ";  //когда отводим - появляется надписть add
-};
+   input.value = "Add: ";  
+ };
 });
-
-//создать новый тег куда будет добавляться значения через функуию
-
-
-
